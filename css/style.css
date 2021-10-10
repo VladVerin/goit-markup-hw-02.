@@ -1,0 +1,152 @@
+/* вторичный цвет текст 212121 */
+/* jосновной цвет текста  757575 */
+/* цвет логотипа финиш 000000 */
+/* цвет логотипа старт 2196F3 */
+/* белый цвет #FFFFFF */
+/* синий цвет 2196F3 */
+/* цвет контактов в футере rgba(255, 255, 255, 0.6) */
+/* основной цвет фона #F5F4FA */
+/* футера цвет 2F303A */
+:root {
+  --header-color: #f5f4fa;
+  --primary-color: #757575;
+  --secondary-color: #212121;
+  --link-color: #000000;
+  --footer-contact-color: rgba(255, 255, 255, 0.6);
+  --blue-color: #2196f3;
+}
+
+body {
+  background-color: var(--header-color);
+  color: var(--primary-color);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* Logo */
+.logo {
+  color: var(--blue-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.Studio-blak {
+  color: var(--link-color);
+}
+.Studio-white {
+  color: var(--header-color);
+}
+
+/* Site nav */
+.site-nav .link {
+  color: var(--link-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav.link:hover,
+.site-nav .link:focus {
+  color: var(--blue-color);
+}
+/* Contacts */
+.maile {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--blue-color);
+}
+.phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+}
+
+/* Hero*/
+
+.hero {
+  background-color: var(--primary-color);
+}
+.hero-title {
+  color: #ffffff;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/* Section */
+.section-title {
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Feature */
+.feature-list .title {
+  color: var(--secondary-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* Team */
+.team-list .title {
+  color: var(--secondary-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.team-list .position {
+  font-size: 16px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+}
+
+/* Button */
+.button {
+  color: #ffffff;
+  background-color: var(--blue-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.button:hover,
+.button:focus {
+  background-color: #ffffff;
+  color: #000000;
+}
+/* Футер */
+.footer {
+  background-color: var(--primary-color);
+}
